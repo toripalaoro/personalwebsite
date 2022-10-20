@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Geneva, Verdana, sans-serif;
+  padding-bottom: 0;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 90px;
+}
+h2{
+  font-size: 2rem;
+  font-weight: normal;
+}
+p{
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+hr{
+  width: 10%;
+  border-style: dotted;
+  size:100px;
+  border-top-width: 1em;
+  border-color: #F2D7D9;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width:0;
+}
+.bottomhr{
+  border-color: #9CB4CC;
+}
+.profile{
+  position: relative;
+  background-color: #9CB4CC;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.snail{
+  z-index: 3;
+  opacity:1;
+}
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  text-align: center;
+}
+.skill-image{
+  width:25%;
+  height:25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.top-container {
+  background-color: #F2D7D9;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom:0;
+}
+
+.middle-container {
+  background-color: #D3CEDF;
+  position: relative;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #9CB4CC;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.medium-cloud{
+  position: absolute;
+  right: 380px;
+  bottom: 350px;
+}
+.btn {
+  background: #F2D7D9;
+  background-image: -webkit-linear-gradient(top, #F2D7D9, #cc6c74);
+  background-image: -moz-linear-gradient(top, #F2D7D9, #cc6c74);
+  background-image: -ms-linear-gradient(top, #F2D7D9, #cc6c74);
+  background-image: -o-linear-gradient(top, #F2D7D9, #cc6c74);
+  background-image: linear-gradient(to bottom, #F2D7D9, #cc6c74);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ed4754;
+  text-decoration: none;
+}
